@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow: hidden;
+    background-color: #000;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 3.5rem;
+}
+.esquerda{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.logo{
+    margin-left: 2rem;
+}
+.logo a{
+    color: #fff;
+}
+
+.direita{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.menu ul{
+    display: flex;
+    padding: 10px;
+}
+.menu ul li a{
+    padding: 10px;
+    margin-left: 1rem;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.menu ul li a:hover{
+    color: #FFD700;
+}
+
+
+.principal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+.esquerda-principal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    height: calc(100vw-3.5rem);
+}
+.centro-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: calc(100vw-3.5rem);
+}
+
+.direita-principal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25%;
+    height: calc(100vw-3.5rem);
+}
+#barra-laterais{
+    background-color: #FFD700;
+    width: 2rem;
+    height: 350px;
+}
